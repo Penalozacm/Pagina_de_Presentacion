@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.titulo{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    height: 200px;
+    width: auto;
+}
+
+.titulo img{
+    width: 20%;
+    height: 70%;
+    border: 5px solid white;
+    border-radius: 25px;
+}
+
+.titulo h1{
+    font-family: 'Silkscreen', cursive;
+    font-size: 80px;
+    color: darkgoldenrod;
+}
+
+nav{
+    background-color: brown;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.container{
+   background-color: gray;
+   font-size: 20px;
+   font-weight: 400;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sobremi{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+}
+
+.sobremip{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.sobremiimg{
+    width: 70%;
+    height: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sobremiimg img{
+    width: 250px;
+    height: auto;
+    border-radius: 130px;
+    border: 5px solid goldenrod;
+}
+
+.mishorarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: auto;
+}
+
+.miscursos div{
+    margin: 30px 50px;
+}
+
+.miscursos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.miscursosp{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.miscursosimg{
+    width: 70%;
+    height: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.miscursosimg img{
+    width: 250px;
+    height: auto;
+    border-radius: 130px;
+    border: 5px solid goldenrod;
+}
+
+footer{
+    background-color: black;
+}
+
+a {
+    margin: 0 50px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.piecito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+}
+
+
+
+
